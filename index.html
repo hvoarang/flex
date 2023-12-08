@@ -25,12 +25,162 @@
       <!-- ================ / button ============== -->
     </div>
     <header class="header">
-      <!-- ============= box__one ============= -->
+      <!-- ============= flex ============= -->
       <div class="container">
+        <h2>flex</h2>
         <ul class="box__one">
-          <li class="box__one--item">1</li>
-          <li class="box__one--item">1</li>
-          <li class="box__one--item">1</li>
+          <li class="box__one--item">child 1</li>
+          <li class="box__one--item">child 2</li>
+          <li class="box__one--item">child 3</li>
+          <li class="box__one--item">child 4</li>
+        </ul>
+        <!-- =============== justify-content ============ -->
+        <h2>justify-content</h2>
+        <ul>
+          <li>
+            <b>flex-start:</b> элементы выравниваются по левой стороне
+            контейнера.
+          </li>
+          <li>
+            <b>flex-end:</b> элементы выравниваются по правой стороне
+            контейнера.
+          </li>
+          <li><b>center:</b> элементы выравниваются по центру контейнера.</li>
+          <li>
+            <b>space-between: </b> элементы отображаются с одинаковыми отступами
+            между ними.
+          </li>
+          <li>
+            <b>space-around:</b> элементы отображаются с одинаковыми отступами
+            вокруг них.
+          </li>
+        </ul>
+        <ul class="box__one two">
+          <li class="box__one--item">child 1</li>
+          <li class="box__one--item">child 2</li>
+          <li class="box__one--item">child 3</li>
+          <li class="box__one--item">child 4</li>
+        </ul>
+        <!-- ============ align-items ============= -->
+        <h2>align-items</h2>
+        <ul>
+          <li>
+            <b>flex-start:</b>элементы выравниваются по верхнему краю
+            контейнера.
+          </li>
+          <li>
+            <b>flex-end: </b>элементы выравниваются по нижнему краю контейнера.
+          </li>
+          <li>
+            <b>center:</b>элементы выравниваются вертикально по центру
+            контейнера.
+          </li>
+          <li>
+            <b>baseline:</b>элементы отображаются на базовой линии контейнера.
+          </li>
+          <li>
+            <b>stretch:</b>элементы растягиваются, чтобы заполнить контейнер.
+          </li>
+        </ul>
+        <ul class="box__one three">
+          <li class="box__one--item">child 1</li>
+          <li class="box__one--item">child 2</li>
+          <li class="box__one--item">child 3</li>
+          <li class="box__one--item">child 4</li>
+        </ul>
+
+        <!-- ================= flex-direction =============== -->
+        <h2>flex-direction</h2>
+        <ul>
+          <li><b>row:</b>элементы размещаются по направлению текста.</li>
+          <li>
+            <b>row-reverse:</b>элементы отображаются в обратном порядке к
+            направлению текста.
+          </li>
+          <li><b>column:</b>элементы располагаются сверху вниз.</li>
+          <li><b>column-reverse:</b>элементы располагаются снизу вверх.</li>
+        </ul>
+        <ul class="box__one four">
+          <li class="box__one--item">child 1</li>
+          <li class="box__one--item">child 2</li>
+          <li class="box__one--item">child 3</li>
+          <li class="box__one--item">child 4</li>
+        </ul>
+
+        <!-- ============= order ================ -->
+        <h2>order</h2>
+        <ul>
+          <li>
+            Иногда изменения порядка отображения элементов в контейнере
+            недостаточно. В таких случаях мы можем применить свойство order для
+            конкретных элементов.
+          </li>
+          <li>
+            По умолчанию, значение этого свойства у элементов равно 0, но мы
+            можем задать положительное или отрицательное целое число этому
+            свойству.
+          </li>
+          <li>0 - по умолчанию</li>
+          <li>1 - конец списка</li>
+          <li>-1 - начало списка</li>
+        </ul>
+        <ul class="box__one five">
+          <li class="box__one--item">child 1</li>
+          <li class="box__one--item order">child 2</li>
+          <li class="box__one--item">child 3</li>
+          <li class="box__one--item">child 4</li>
+        </ul>
+        <!-- ============= align-self ================ -->
+        <h2>align-self</h2>
+        <ul>
+          <li>
+            Ещё одно свойство, которое ты можешь применить к определенному
+            элементу — это <b>align-self</b> . Это свойство принимает те же
+            значения, что и <b>align-items</b> .
+          </li>
+        </ul>
+        <ul class="box__one six">
+          <li class="box__one--item">child 1</li>
+          <li class="box__one--item order-one">child 2</li>
+          <li class="box__one--item">child 3</li>
+          <li class="box__one--item">child 4</li>
+        </ul>
+        <!-- ============= flex-wrap ================ -->
+        <h2>flex-wrap</h2>
+        <ul>
+          <li>
+            О нет! Лягушат сплющило на одном ряду лилий. Раздвинь их с помощью
+            свойства <b>flex-wrap</b> , которое принимает следующие значения:
+          </li>
+          <li>
+            <b>nowrap:</b>размеры элементов устанавливаются автоматически, чтобы
+            они поместились в один ряд.
+          </li>
+          <li>
+            <b>wrap:</b>элементы автоматически переносятся на новую строку.
+          </li>
+          <li>
+            <b>wrap-reverse:</b>элементы автоматически переносятся на новую
+            строку, но строки расположены в обратном порядке.
+          </li>
+        </ul>
+        <ul class="box__one seven">
+          <li class="box__one--item">child 1</li>
+          <li class="box__one--item">child 2</li>
+          <li class="box__one--item">child 3</li>
+          <li class="box__one--item">child 4</li>
+          <li class="box__one--item">child 5</li>
+          <li class="box__one--item">child 6</li>
+          <li class="box__one--item">child 7</li>
+          <li class="box__one--item">child 8</li>
+          <li class="box__one--item">child 9</li>
+          <li class="box__one--item">child 10</li>
+          <li class="box__one--item">child 11</li>
+          <li class="box__one--item">child 12</li>
+          <li class="box__one--item">child 13</li>
+          <li class="box__one--item">child 14</li>
+          <li class="box__one--item">child 15</li>
+          <li class="box__one--item">child 16</li>
         </ul>
       </div>
     </header>
