@@ -124,7 +124,7 @@ a {
   margin-right: auto;
 }
 
-.box__one--item {
+.box__item {
   width: 70px;
   height: 50px;
 
@@ -140,7 +140,7 @@ a {
   border-radius: 8px;
 }
 
-.box__one--item:nth-child(2n+1) {
+.box__item:nth-child(2n+1) {
   background-color: blue;
 }
 
