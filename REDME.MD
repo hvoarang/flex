@@ -1,1 +1,11 @@
-
+- FLEX
+- justify-content
+- align-items
+- flex-direction
+- order
+- flex-wrap
+- align-content
+- flex-basis
+- flex-grow
+- flex-shrink
+- align-self
