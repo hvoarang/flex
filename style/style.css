@@ -251,3 +251,28 @@ a {
   align-self: flex-end;
 
 }
+
+/* ======================== */
+.news {
+  display: flex;
+  width: 1600px;
+}
+
+.news__ul {
+  margin-top: 50px;
+  gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.news__li {
+  flex-wrap: wrap;
+  display: flex;
+  width: 400px;
+}
+
+.news__ul:nth-child(3n) {
+
+  margin-bottom: 30px;
+}
