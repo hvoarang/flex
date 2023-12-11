@@ -253,11 +253,6 @@ a {
 }
 
 /* ======================== */
-.news {
-  display: flex;
-  width: 1600px;
-}
-
 .news__ul {
   display: flex;
   flex-wrap: wrap;
