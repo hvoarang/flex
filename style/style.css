@@ -259,10 +259,11 @@ a {
 }
 
 .news__ul {
-  margin-top: 50px;
-  gap: 30px;
   display: flex;
   flex-wrap: wrap;
+
+  margin-top: 50px;
+  gap: 30px;
 
 }
 
