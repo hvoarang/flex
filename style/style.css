@@ -1,31 +1,17 @@
+body {
+  font-size: 20px;
+  font-family: Monaco serif;
+}
+
+a,
+p,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-
-  padding-left: 10px;
   margin: 0;
-  text-align: center;
-}
-
-.title {
-  padding: 0;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-
-body {
-  font-size: 20px;
-  font-family: Monaco serif;
-}
-
-* p,
-a {
-  margin: 0;
-  width: 1200px;
 }
 
 ul,
@@ -35,6 +21,13 @@ a {
   padding: 0;
   list-style: none;
   text-decoration: none;
+}
+
+.title {
+  padding: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .information {
@@ -56,8 +49,6 @@ a {
 .body {
   background-color: #dfdfdf
 }
-
-
 
 .container {
   width: 1600px;
@@ -157,8 +148,6 @@ a {
 
   justify-content: center;
   background-color: tomato;
-
-
 
 }
 
@@ -271,4 +260,8 @@ a {
 .news__ul:nth-child(3n) {
 
   margin-bottom: 30px;
+}
+
+.news__p {
+  margin-bottom: 10px;
 }
