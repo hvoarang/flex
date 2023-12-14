@@ -602,15 +602,67 @@
             </p>
           </li>
         </ul>
-
         <!-- ====== Position ====== -->
-        <section class="position">
-          <div class="box absolute"></div>
-          <div class="box fixed"></div>
-          <div class="box relative"></div>
-          <div class="box static"></div>
-          <div class="box sticky"></div>
-        </section>
+        <div>
+          <h2 class="title">Свойство Position</h2>
+          <p>
+            Свойство <b>position</b> указывает тип метода позиционирования,
+            используемого для элемента.
+          </p>
+          <ul>
+            <p>Существует пять различных значений позиции:</p>
+            <br />
+            <li>
+              <b>- absolute</b> (абсолютное): Элемент будет позиционирован
+              абсолютно. Другие элементы не влияют на положение элемента.
+              Регулируется такими свойствами как:
+              <b>top, right, bottom, left </b>
+            </li>
+            <br />
+            <li>
+              <b>- fixed</b> (фиксированное): Регулируется такими свойствами
+              как: <b>top, right, bottom, left </b>. Не меняет свое положение
+              при прокрутке страницы.
+            </li>
+            <br />
+            <li>
+              <b>- relative</b> (относительное): Относительное позиционирование,
+              положение элемента позиционируется относительно его исходного
+              места. Регулируется относительно его изначального положения такими
+              свойствами как: <b>top, right, bottom, left</b>
+            </li>
+            <br />
+            <li>
+              <b>- static</b> (статическое): Элементы отображаются как обычно,
+              не регулируется свойствами: <b>top, right, bottom, left </b>
+            </li>
+            <br />
+            <li>
+              <b>- sticky</b> (липкое): Сочетание относительного и
+              фиксированного позиционирования
+            </li>
+            <br />
+            <p>
+              Затем элементы раздаются с помощью свойств
+              <b> "top", "bottom", "left" и "right"</b>. Однако эти свойства не
+              будут работать, если только свойство position не задано первым.
+              Они также работают по-разному в зависимости от значения положения.
+            </p>
+          </ul>
+          <div class="position">
+            <div>
+              <div class="box absolute"><p>absolute</p></div>
+              <div class="box fixed">fixed</div>
+              <div class="box relative">relative</div>
+              <div class="box static">static</div>
+              <div>
+                <div>header</div>
+                <div class="box sticky">sticky разобраться</div>
+                <div>footer</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
   </body>
